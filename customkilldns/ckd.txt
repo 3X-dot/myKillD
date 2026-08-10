@@ -1,0 +1,1036 @@
+################################
+# Variable de Bloqueo de Dominios
+################################
+##########################
+# Bloqueo de Dominios
+##########################
+||dfm.dk^$important
+||cifelli.xyz^$important
+||ptb.de^$important
+||time.nl^$important
+||netnod.se^$important
+!||ifconfig.me^$important
+!||gl-vpn.com^$important
+!||ip.gs^$important
+!||ip.me^$important
+!||.glddns.com^$important
+!||glddns.com^$important
+#IP Privados
+#!127.0.0.1
+!||.^$client='127.0.0.1',important
+#!127.0.0.1
+!DDNS
+!||ddns-tls.glddns.com^$client='127.0.0.1',important
+!DDNS
+#!IPv4 - IPv6
+||.arpa^$client='192.168.0.1',important
+||.arpa^$client=192.168.0.0/16,important
+||.arpa^$client=172.16.0.0/12,important
+||.arpa^$client=10.0.0.0/8,important
+||.arpa^$client=100.64.0.0/10,important
+||.arpa^$client=169.254.0.0/16,important
+||.arpa^$client=127.0.0.0/8,important
+!#IPv6 - IPv4
+||.arpa^$client=fc00::/7,important
+||.arpa^$client=fe80::/10,important
+||.arpa^$client=fec0::/10,important
+#IP Privados
+# ═════════════════════════════════════════════════════════════════ 
+# 1. DOMINIOS RESERVADOS Y LOCALES 
+# ═════════════════════════════════════════════════════════════════ 
+# Espacios de direccionamiento local, privado e inválido 
+||.arpa^$important
+||in-addr.arpa^$important
+||.home.arpa^$important 
+||.invalid^$important 
+||ipv6only.arpa^$important 
+||ipv4only.arpa^$important 
+||home.arpa^$important 
+||ip.arpa^$important 
+||ip4.arpa^$important 
+||ip6.arpa^$important 
+||.localdomain^$important 
+||.localhost^$important 
+||.local^$important 
+||.internal^$important 
+||.lan^$important
+||.eu^$important
+||.in^$important
+||.קום^$important
+||.corp^$important 
+||.priv^$important 
+||._https^$important 
+||.onion^$important 
+||cn.lan^$important 
+||com.lan^$important 
+||net.lan^$important 
+||tv.lan^$important
+||gov.lan^$important 
+||org.lan^$important 
+||ms.lan^$important
+||.cn^$important
+||.st^$important
+||azure.cn^$important
+||disabled.invalid^$important 
+||arpa.lan^$important
+||eu.lan^$important
+||bundleassets.example^$important 
+||.gov^$important
+# ═════════════════════════════════════════════════════════════════ 
+# 1,2. IPs
+# ═════════════════════════════════════════════════════════════════ 
+||.arpa^$important
+||arpa^$important 
+||in-addr.arpa^$important 
+||.in-addr.arpa^$important 
+# ═════════════════════════════════════════════════════════════════ 
+# 2. REDES SOCIALES Y COMUNICACIÓN 
+# ═════════════════════════════════════════════════════════════════ 
+# --- Facebook, Instagram y WhatsApp --- 
+||www.facebook.com^$important 
+||lookaside-fallback.facebook.com^$important 
+||z-m-gateway.facebook.com^$important
+||lookaside.facebook.com^$important
+||edge-mqtt-fallback.facebook.com^$important 
+||portal.fb.com^$important 
+||b-www.facebook.com^$important  
+||graph.facebook.com^$important 
+||graph-fallback.facebook.com^$important 
+||web.facebook.com^$important 
+||platform-lookaside.fbsbx.com^$important  
+||mqtt-ig-p4.facebook.com^$important 
+||notifications.facebook.com^$important 
+||share.facebook.com^$important 
+||marketing.facebook.com^$important 
+||campaigntrackingreceiver.facebook.com^$important 
+||appevents.facebook.com^$important 
+||facebook.net^$important 
+||connect.facebook.net^$important 
+||fbcdn.net^$important 
+||xy.fbcdn.net^$important 
+||facebook-hardware.com^$important 
+||instagram-p3-shv-01-mad2.fbcdn.net^$important 
+||edge-ig-dgw-shv-03-mrs2.facebook.com^$important 
+# Instagram 
+||gateway.instagram.com^$important 
+||i-fallback.instagram.com^$important 
+||test-gateway.instagram.com^$important 
+||help.instagram.com^$important 
+||payments-graph.instagram.com^$important 
+||graph-fallback.instagram.com^$important 
+||b.i.instagram.com^$important 
+||l.instagram.com^$important 
+||scontent-fra5-2.cdninstagram.com^$important 
+# WhatsApp
+||whatsapp.com^$important
+||api.whatsapp.net^$important
+||g.whatsapp.net^$important
+||v.whatsapp.net^$important
+||g-fallback.whatsapp.net^$important
+||static.whatsapp.net^$important
+||mmg-fallback.whatsapp.net^$important
+||e1.whatsapp.net^$important
+||e2.whatsapp.net^$important
+||e10.whatsapp.net^$important
+||e3.whatsapp.net^$important
+||e9.whatsapp.net^$important
+||e5.whatsapp.net^$important
+!||whatsapp.net^$important
+# --- TikTok --- 
+||tiktok.com^$important  
+||frontier.tiktokv.us^$important
+||ibyteimg.com^$important
+||analytics.tiktok.com^$important
+||mon-boot.tiktokv.com^$important
+||dig.tiktokv.us^$important
+||.bytedance.com^$important
+||bytedance.com^$important 
+!||tiktokv.us^$important
+!||tiktokcdn-us.com^$important
+!||tiktokcdn.com^$important
+!||tnc16-normal-useast8.tiktokv.us^$important
+!||tnc19-normal-useast5.tiktokv.us^$important
+!||jsb-sg.tiktokv.com^$important 
+!||vcs-sg.tiktokv.com^$important 
+!||api16-normal-c-alisg.tiktokv.com^$important 
+!||lf19-gecko-source.tiktokcdn-us.com^$important
+!||webcast-ws16-normal-no1a.tiktokv.eu^$important 
+!||frontier16-normal-no1a.tiktokv.eu^$important 
+!||starling-ttp2.tiktokv.eu^$important 
+!||inapp-ttp2.tiktokv.eu^$important 
+!||ug-attribution-ttp2.tiktokv.eu^$important 
+!||aggr32-normal.tiktokv.eu^$important 
+!||sf16-teko.tiktokcdn.com^$important 
+!||p16-sign-sg.tiktokcdn.com^$important 
+!||p77-sign-sg-lite.tiktokcdn.com^$important 
+!||p77-sign-sg.tiktokcdn.com^$important 
+!||p77-sg.tiktokcdn.com^$important 
+!||p77-sign-va.tiktokcdn.com^$important 
+!||p16-sg.tiktokcdn.com^$important 
+!||p16-ug-incentive-va.tiktokcdn.com^$important 
+!||p16-sign-va.tiktokcdn.com^$important
+!||lf-main-gecko-source.tiktokcdn.com^$important
+!||sf16-ies-music-va.tiktokcdn.com^$important
+!||v16m.tiktokcdn-eu.com^$important  
+!||sf-teko-source.tiktokcdn-eu.com^$important 
+!||sf-teko-proxy-source.tiktokcdn-eu.com^$important
+!||lf16-geckocdn.tiktokcdn-us.com^$important
+# --- Twitter/X --- 
+||twitter.com^$important 
+||t.co^$important 
+# --- Otras redes sociales --- 
+||quora.com^$important 
+||a.quora.com^$important 
+||redditstatic.com^$important 
+||www.redditstatic.com^$important 
+||sc-static.net^$important 
+||pinimg.com^$important 
+||s.pinimg.com^$important 
+# --- VRChat y metaverso --- 
+||status.vrchat.com^$important 
+||vrcpm.vrchat.cloud^$important
+!||pipeline.vrchat.cloud^$important 
+# --- Comunicación (VoIP, mensajería)--- 
+||skype.com^$important 
+||vivox.com^$important 
+||intercom.com^$important 
+# --- Otros --- 
+||boyuanhulian.com^$important 
+||caoyue.com.cn^$important 
+||api-secure.rikka.caoyue.com.cn^$important 
+||appsflayer.com^$important 
+||swrve.com^$important 
+# ═════════════════════════════════════════════════════════════════ 
+# 3. VIDEOJUEGOS Y GAMING 
+# ═════════════════════════════════════════════════════════════════ 
+# --- Epic Games --- 
+||epicgames.dev^$important  
+||modules-cdn.eac-prod.on.epicgames.com^$important 
+||eac-prod.on.epicgames.com^$important 
+||eos-general.s3.amazonaws.com^$important 
+!||api.epicgames.dev^$important
+# --- Steam y Valve --- 
+||test.steampowered.com^$important 
+||valve.net^$important 
+||.valve.net^$important
+||discovery.steamserver.net^$important 
+||ipv6check-udp.steamserver.net^$important 
+||ipv6check-http.steamserver.net^$important 
+||clan.steamstatic.com^$important
+||steamconnecttest.com^$important
+# --- Blizzard --- 
+||breaking-news.support.blizzard.com^$important 
+# --- Otros --- 
+||battleye.com^$important 
+||game-mode.net^$important 
+||gaming-sdk.com^$important 
+||offworldindustries.net^$important 
+||nakamacloud.io^$important 
+||td-data-v2.aplusjapan-game.com^$important 
+||mapi.perfectworldgames.com^$important 
+||static.perfectworldgames.com^$important 
+||activity.perfectworldgames.com^$important 
+||eft-project.com^$important 
+||ubiservices.cdn.ubi.com^$important 
+# ═════════════════════════════════════════════════════════════════ 
+# 4. PLATAFORMAS DE STREAMING 
+# ═════════════════════════════════════════════════════════════════ 
+# --- Netflix --- 
+||nflximg.net^$important 
+||help.nflxext.com^$important 
+||cdn-0.nflximg.com^$important 
+||customerevents.netflix.com^$important 
+||ichnaea.netflix.com^$important 
+||logs.netflix.com^$important 
+||partner.netflix.net^$important 
+||nccp.netflix.com^$important 
+||push.prod.netflix.com^$important 
+||mediatek-7014e4b2.prod.partner.netflix.net^$important 
+||nrdp.nccp.netflix.com^$important
+!||secure.netflix.com^$important
+!||1.nflxso.net^$important
+!||nrdp-cell4.prod.ftl.netflix.com^$important
+!||nrdp51-appboot.netflix.com^$important
+!||nrdp60-appboot.netflix.com^$important
+# --- YouTube y Google Video --- 
+||youtube.com^$important 
+||s.youtube.com^$important 
+||suggestqueries-clients6.youtube.com^$important 
+||youtube-nocookie.com^$important 
+||youtube-u.l.google.com^$important 
+||eligibility-panelresearch.googlevideo.com^$important 
+||panelresearch.googlevideo.com^$important 
+||manifest.googlevideo.com^$important 
+||redirector.googlevideo.com^$important 
+# --- Otros streaming --- 
+||gradio.app^$important 
+||videoplaza.tv^$important 
+||perso.dof6.com^$important 
+||voddelivery.emisiondof6.com^$important 
+||backoffice-contents.azarlive.com^$important 
+||dev3-contents.azarlive.com^$important 
+||xcdn.tv^$important 
+||soterb-pf.sve.video.telefonicaservices.com^$important 
+||svp.video.telefonicaservices.com^$important  
+||slingocasino.es^$important 
+||01star-dash-movistarplus.emisiondof6.com^$important
+||legacy.dof6.com^$important
+||monitoring-ott.imagenio.telefonica.net^$important
+||audiencias-ott.imagenio.telefonica.net^$important
+!||estatico.emisiondof6.com^$important 
+!||soter-pf.sve.video.telefonicaservices.com^$important
+!||sd.cdn.sve.video.telefonicaservices.com^$important
+# ═════════════════════════════════════════════════════════════════ 
+# 5. SERVICIOS DE GOOGLE (80+ dominios) 
+# ═════════════════════════════════════════════════════════════════ 
+# --- Dominios principales --- 
+||google.com^$important
+||google.es^$important 
+||.google.es^$important 
+||www.google.com^$important 
+||clients1.google.com^$important 
+||clients2.google.com^$important 
+||clients.google.com^$important 
+||l.google.com^$important 
+||.dl.google.com^$important
+||pki-goog.l.google.com^$important 
+||withgoogle.com^$important 
+# --- Firebase --- 
+||firebaseinstallations.googleapis.com^$important 
+||firebaseremoteconfig.googleapis.com^$important 
+||firebaseinappmessaging.googleapis.com^$important 
+||firebaseio.com^$important 
+||firebaseperusertopics-pa.googleapis.com^$important 
+||firebaseremoteconfigrealtime.googleapis.com^$important 
+# --- Geolocalización y mapas --- 
+||geomobileservices-pa.googleapis.com^$important 
+||maps.googleapis.com^$important 
+||maps.google.com^$important 
+||mobilemaps.googleapis.com^$important 
+||mobilemaps-pa-gz.googleapis.com^$important 
+||userlocation.googleapis.com^$important 
+||geo0.ggpht.com^$important 
+||semanticlocation-pa.googleapis.com^$important 
+||locationhistory-pa.googleapis.com^$important 
+||locationhistoryplacedetails-pa.googleapis.com^$important 
+||mapsmobilesdks-pa.googleapis.com^$important 
+# --- Google Play y aplicaciones --- 
+||play-apps-features.googleusercontent.com^$important 
+||playstoregatewayadapter-pa.googleapis.com^$important 
+||prod-lt-playstoregatewayadapter-pa.googleapis.com^$important 
+||playatoms-pa.googleapis.com^$important 
+||gameswhitelisted.googleapis.com^$important 
+# --- Analítica y publicidad --- 
+||adservice.google.com^$important 
+||googleadservices.com^$important 
+||googlesyndication.com^$important 
+||pagead2.googlesyndication.com^$important 
+||googletagmanager.com^$important 
+||www.googletagmanager.com^$important 
+||fundingchoicesmessages.google.com^$important 
+||metric.gstatic.com^$important 
+||wh\000xqe-dnsotls-ds.metric.gstatic.com^$important 
+||.metric.gstatic.com^$important 
+||metric.gstatic.com^$important
+||-ds.metric.gstatic.com^$important 
+||000xqe-dnsotls-ds.metric.gstatic.com^$important 
+||xga-serving-pa.googleapis.com^$important 
+||gstatic.com^$important 
+||1e100.net^$important 
+# --- Seguridad y sincronización --- 
+||safebrowsing.googleapis.com^$important 
+||safebrowsingohttpgateway.googleapis.com^$important 
+||chromesyncentities-pa.googleapis.com^$important 
+||chromesyncpasswords-pa.googleapis.com^$important 
+||digitalassetlinks.googleapis.com^$important 
+||cryptauthenrollment.googleapis.com^$important 
+||cryptauthvault.googleapis.com^$important 
+||cryptauthdevicesync.googleapis.com^$important 
+||remoteprovisioning.googleapis.com^$important 
+||verifiablecredentials-pa.googleapis.com^$important 
+||ondevicesafety-pa.googleapis.com^$important 
+# --- Herramientas y soporte --- 
+||tools.google.com^$important 
+||support.google.com^$important 
+||encrypted.google.com^$important 
+||scholar.google.com^$important  
+||ogs.google.com^$important 
+||time.google.com^$important 
+||jibe.google.com^$important 
+||policies.google.com^$important 
+||supl.google.com^$important 
+||gds.google.com^$important 
+||www.googleapis.com^$important 
+||pa.googleapis.com^$important 
+||ssl.gstatic.com^$important 
+||connectivitycheck.gstatic.com^$important 
+||consent.google.com^$important 
+||redirector.googlevideo.com^$important
+# --- Mensajería instantánea (Google Talk) --- 
+||mtalk.google.com^$important 
+||mtalk-staging.google.com^$important 
+||mtalk-dev.google.com^$important 
+||mtalk4.google.com^$important 
+||alt-mtalk.google.com^$important 
+||alt1-mtalk.google.com^$important 
+||alt2-mtalk.google.com^$important 
+||alt3-mtalk.google.com^$important 
+||alt4-mtalk.google.com^$important 
+||alt5-mtalk.google.com^$important 
+||alt6-mtalk.google.com^$important 
+||alt7-mtalk.google.com^$important 
+||alt8-mtalk.google.com^$important 
+# --- Contenido y reproducción --- 
+||content-autofill.googleapis.com^$important 
+||content-signature-2.cdn.mozilla.net^$important 
+# --- Dispositivos y hardware --- 
+||time.android.com^$important 
+||androidplatform.net^$important 
+||source.android.com^$important 
+||androidtvgtvmfe-pa.googleapis.com^$important 
+||findmydevice-pa.googleapis.com^$important 
+||androidplatformbackuprestore-pa.googleapis.com^$important 
+||androidauthnimblegateway-pa.googleapis.com^$important 
+||androidresumeonreboot-pa.googleapis.com^$important 
+||deviceintegritytokens-pa.googleapis.com^$important 
+# --- Personas y contactos --- 
+||people-pa.googleapis.com^$important 
+||nearbypresence-pa.googleapis.com^$important 
+# --- Suscripciones y pagos --- 
+||subscriptionsfirstparty-pa.googleapis.com^$important 
+||subscriptionsmobile-pa.googleapis.com^$important 
+||subscriptionsmanagement-pa.googleapis.com^$important 
+||pay-users-pa.googleapis.com^$important 
+||androidpay-users-pa.googleapis.com^$important 
+||wallet.google.com^$important 
+# --- Descubrimiento y recomendación --- 
+||discover-pa.googleapis.com^$important 
+||preprod-discover-pa.googleapis.com^$important 
+||peoplestack-pa.googleapis.com^$important 
+||appsgrowthpromo-pa.googleapis.com^$important 
+||taskassist-pa.googleapis.com^$important 
+||infinitedata-pa.googleapis.com^$important 
+||xgapromomanager-pa.googleapis.com^$important 
+||jnn-pa.googleapis.com^$important 
+||reach-pa.googleapis.com^$important 
+# --- Otros servicios Google --- 
+||myadcenter.google.com^$important 
+||gmscompliance-pa.googleapis.com^$important 
+||mobileconfiguration-pa.googleapis.com^$important  
+||restrictedapps-pa.googleapis.com^$important 
+||regioninfo-pa.googleapis.com^$important 
+||userpaneltv-pa.googleapis.com^$important 
+||calendarsync-pa.googleapis.com^$important 
+||drivefrontend-pa.googleapis.com^$important 
+||tasks-pa.googleapis.com^$important 
+||reminders-pa.googleapis.com^$important  
+||clouderrorreporting.googleapis.com^$important 
+||cloudsearch.googleapis.com^$important 
+||clientauthconfig.googleapis.com^$important 
+||accountsettingsmobile-pa.googleapis.com^$important 
+||instantmessaging-pa.googleapis.com^$important 
+||auditrecording-pa.googleapis.com^$important
+||myphonenumbers-pa.googleapis.com^$important 
+||instantmessaging-pa-jms-preprod-eu.googleapis.com^$important 
+||c2paregistration.pa.googleapis.com^$important 
+||commondatastorage.googleapis.com^$important 
+||footprints-pa.googleapis.com^$important 
+||clienttracing-pa.googleapis.com^$important 
+||appsgenaiserver-pa.googleapis.com^$important 
+||phosphor-pa.googleapis.com^$important 
+||finance-pa.googleapis.com^$important 
+||suggestqueries.google.com^$important 
+||usercontent.goog^$important 
+||meetings.googleapis.com^$important  
+||waa-pa.clients6.google.com^$important 
+||optimizationguide-pa.googleapis.com^$important 
+||flexagon-pa.googleapis.com^$important 
+||cloudfunctions.net^$important 
+||workspacevideo-pa.googleapis.com^$important 
+||tfhub.dev^$important 
+||kaggle.com^$important 
+# ═════════════════════════════════════════════════════════════════ 
+# 6. SERVICIOS DE MICROSOFT Y XBOX 
+# ═════════════════════════════════════════════════════════════════ 
+# --- Dominios principales --- 
+||microsoft.com^$important 
+||s-microsoft.com^$important 
+||windows.com^$important 
+||windows.net^$important 
+||azure.net^$important 
+||live.com^$important 
+||live.net^$important 
+||msn.com^$important 
+||office.com^$important 
+||office365.com^$important 
+# --- Actualizaciones y conectividad --- 
+||windowsupdate.com^$important 
+||wns.windows.com^$important 
+||activity.windows.com^$important 
+||msftconnecttest.com^$important 
+||microsoftconnecttest.com^$important 
+||inputsuggestions.msdxcdn.microsoft.com^$important 
+||services.visualstudio.com^$important 
+||data.microsoft.com^$important 
+||aria.microsoft.com^$important 
+||mobile.pipe.aria.microsoft.com^$important 
+# --- Xbox y Gaming --- 
+||multiplayeractivity.xboxlive.com^$important
+||userpresence.xboxlive.com^$important
+||privacy.xboxlive.com^$important
+||avty.xboxlive.com^$important
+||xboxservices.com^$important 
+||xboxab.com^$important 
+||sfx.ms^$important 
+||aka.ms^$important 
+!||xboxlive.com^$important
+# --- Otros --- 
+||msecnd.net^$important 
+||msftncsi.com^$important 
+||mshome.net^$important 
+||img-prod-cms-rt-microsoft-com.akamaized.net^$important 
+# ═════════════════════════════════════════════════════════════════ 
+# 7. ANÁLISIS Y TRACKING 
+# ═════════════════════════════════════════════════════════════════ 
+# --- Seguimiento general --- 
+||amplitude.com^$important 
+||npaw.com^$important 
+||trevianalytics.com^$important 
+||adjust.com^$important 
+||adjust.net.in^$important 
+||app-measurement.com^$important 
+||crashlytics.com^$important 
+||publictracker.xyz^$important 
+||geoip-js.com^$important 
+||backtrace.io^$important 
+||iplogger.org^$important 
+||iplogger.com^$important 
+||2no.co^$important 
+||directededge.com^$important 
+# --- Mapeo y geolocalización --- 
+||mapbox.com^$important 
+||exp-tas.com^$important 
+# --- APM y monitoreo --- 
+||newrelic.com^$important 
+||js-agent.newrelic.com^$important 
+||posthog.com^$important 
+# --- Otros tracking --- 
+||youborafds01.com^$important 
+||a-fds.youborafds01.com^$important 
+||datadog.pool.ntp.org^$important 
+||yotpo.com^$important 
+||twinpush.com^$important 
+||onetrust.com^$important 
+||captions-api.xyz^$important 
+||customer.io^$important 
+||assets.customer.io^$important 
+||hubspot.com^$important 
+||secure.gravatar.com^$important 
+||s.gravatar.com^$important 
+||revenuecat.com^$important 
+||xlb-prod-uw1-broker-main-b2b.prod.uw1.matata.hpcnt.com^$important 
+||b2b-event-gateway.platform-uw1.hpcnt.com^$important 
+||event-gateway.platform-uw1.hpcnt.com^$important 
+# ═════════════════════════════════════════════════════════════════ 
+# 8. PUBLICIDAD Y MARKETING 
+# ═════════════════════════════════════════════════════════════════ 
+# --- Redes de publicidad --- 
+||applovin.com^$important 
+||res4.applovin.com^$important 
+||axon.ai^$important 
+||s.axon.ai^$important 
+||bat.bing.com^$important 
+||clarity.ms^$important 
+||www.clarity.ms^$important 
+||cloudflareinsights.com^$important 
+||static.cloudflareinsights.com^$important 
+||buysellads.net^$important 
+||cdn4.buysellads.net^$important 
+||servedby-buysellads.com^$important 
+||m.servedby-buysellads.com^$important 
+||judge.me^$important 
+||kat.am^$important 
+||bing.com^$important 
+# --- Google publicidad (ya en sección Google) --- 
+# ═════════════════════════════════════════════════════════════════ 
+# 9. INTELIGENCIA ARTIFICIAL Y ML 
+# ═════════════════════════════════════════════════════════════════ 
+||ws.chatgpt.com^$important 
+||ab.chatgpt.com^$important 
+||srafcloud.com^$important 
+||bldrdoc.gov^$important 
+# ═════════════════════════════════════════════════════════════════ 
+# 10. CDN, DNS Y SERVICIOS TÉCNICOS 
+# ═════════════════════════════════════════════════════════════════ 
+# --- Cloudflare --- 
+||a.nel.cloudflare.com^$important 
+||aim.cloudflare.com^$important 
+||cloudflareinsights.com^$important 
+||static.cloudflareinsights.com^$important 
+||turn.cloudflare.com^$important 
+||cloudflare-dns.com^$important 
+||dns.cloudflare.com^$important 
+# --- Servicios DNS --- 
+||dns.yandex.ru^$important 
+||dns.google^$important 
+||cleanbrowsing.org^$important 
+||libredns.gr^$important 
+||joindns4.eu^$important 
+||footprintdns.com^$important 
+||test.nextdns.io^$important 
+||link-ip.nextdns.io^$important 
+||test-ipv6.nextdns.io^$important 
+||steering.nextdns.io^$important 
+||doubleclick.net^$important 
+||nothingtech.link^$important 
+# --- IANA y registros --- 
+||iana.org^$important 
+# --- CDN y hosting --- 
+||akamaized.net^$important 
+||akamaitechnologies.com^$important 
+||akadns.net^$important 
+||whoami.akamai.net^$important 
+||rlwy.net^$important 
+||fastly-edge.com^$important 
+||choopa.com^$important 
+||gameservers.com^$important 
+||choopa.net^$important 
+||constant.com^$important 
+||gslnetworks.com^$important 
+||clouvider.net^$important 
+||stackscale.com^$important 
+||scaleway.com^$important 
+||scw.cloud^$important 
+||anexia.com^$important 
+||anx-cus.net^$important 
+||powered.services^$important 
+||anexia-it.com^$important 
+# --- Certificados y seguridad --- 
+||usertrust.com^$important 
+||geotrust.com^$important 
+||rapidssl.com^$important 
+||rootca1.amazontrust.com^$important 
+||r2m02.amazontrust.com^$important 
+||pki.goog^$important 
+# --- MediaTek --- 
+||rgepodownload.mediatek.com^$important 
+||repodownload.mediatek.com^$important 
+# --- Intel y fabricantes --- 
+||policy.system-usage-report.intel.com^$important 
+||wizard.samsungsemi.com^$important 
+||apahflfit2015.samsung.com^$important 
+||samsungdm.com^$important 
+# --- Kaspersky --- 
+||ksn-file-geo.kaspersky-labs.com^$important 
+||ksn-stat-geo.kaspersky-labs.com^$important 
+||dc1-st.ksn.kaspersky-labs.com^$important 
+# --- Logitech --- 
+||logitechg.com^$important 
+||util.logitech.io^$important 
+||datapipeline.logitech.io^$important 
+||device-recommendation.logitech.com^$important 
+||geo-location-finder.logitech.com^$important 
+||console.gl-inet.com^$important 
+||ad-api.gl-inet.com^$important 
+||countly.gl-inet.com^$important 
+# --- Xiaomi --- 
+||xiaomi.com^$important 
+||xiaomi.net^$important 
+||miui.com^$important 
+||market.xiaomi.com^$important 
+||d.miui.com^$important 
+||sf0.market.xiaomi.com^$important 
+||f3.market.xiaomi.com^$important 
+||f4.market.xiaomi.com^$important 
+||eu.galleryapi.micloud.xiaomi.net^$important 
+# --- Otros servicios técnicos --- 
+||trafficmanager.net^$important 
+||rima-tde.net^$important 
+||beacondb.net^$important 
+||vscode-unpkg.net^$important 
+||vscode-cdn.net^$important 
+||workers.dev^$important 
+||mcast.net^$important 
+||beacons.ai^$important 
+||gvt3.com^$important 
+# ═════════════════════════════════════════════════════════════════ 
+# 11. PLATAFORMAS Y SERVICIOS DIVERSOS 
+# ═════════════════════════════════════════════════════════════════ 
+# --- Empresas de software --- 
+||apple.com^$important 
+||baidu.com^$important 
+||unity3d.com^$important 
+||core.cloud.unity3d.com^$important 
+||api.unity.com^$important 
+# --- Plataformas de desarrollo --- 
+||nextjs.org^$important 
+||sanity.io^$important 
+||license.n8n.io^$important 
+# --- Herramientas y servicios --- 
+||metaxplay.com^$important 
+||metaxplay.tv^$important 
+||3gppnetwork.org^$important 
+||yogadns.com^$important 
+||watermelonpro.com^$important 
+||bloomrivers.com^$important 
+||greenvibedaily.com^$important 
+||seraphic-corp.com^$important 
+||movistar.es^$important 
+||simyo.es^$important 
+||primeapi.com^$important 
+# --- Redes y telecomunicaciones --- 
+||taobao.com^$important 
+||yandex.ru^$important 
+||vk.com^$important 
+||mail.com^$important 
+||mailbox.com^$important 
+# --- DNS y privacidad --- 
+||plausible.safing.io^$important 
+||safing.io^$important 
+||online-check.safing.io^$important 
+||safe.duckduckgo.com^$important 
+||improving.duckduckgo.com^$important 
+||eff.org^$important 
+||do-not-tracker.org^$important 
+||trackersimulator.org^$important 
+||eviltracker.net^$important 
+||anon-stats.eff.org^$important 
+!||duckduckgo.com^$important
+# --- Navegadores y Mozilla --- 
+||detectportal.firefox.com^$important 
+||push.services.mozilla.com^$important 
+||services.mozilla.com^$important 
+||assets.mozilla.net^$important 
+# --- Adobe --- 
+||geo2.adobe.com^$important 
+||assets.adobedtm.com^$important 
+||csdkapi-policy.adobe.com^$important 
+||app.link^$important 
+||stock.adobe.io^$important 
+||invitations.adobe.io^$important 
+||idg.adobe.com^$important 
+||flashtalking.com^$important 
+||geo1.adobe.com^$important 
+||geo.adobe.com^$important 
+||acp-ss.adobe.io^$important 
+||platform-cs.adobe.io^$important 
+||spark-search.adobe.io^$important 
+||comments.adobe.io^$important 
+||libraries.adobe.io^$important 
+||platform-cs-irl1.adobe.io^$important 
+||ds.adobe.io^$important 
+||ccprojects.adobe.io^$important 
+||scss.adobesc.com^$important 
+||cchome.adobe.io^$important 
+# --- Blockchain y Web3 --- 
+||api.web3auth.io^$important 
+||solana-mainnet.infura.io^$important 
+||mainnet.infura.io^$important 
+!# ═════════════════════════════════════════════════════════════════ 
+# --- Otros servicios --- 
+# --- Otros servicios --- 
+# --- Otros servicios --- 
+# --- Otros servicios --- 
+!# ═════════════════════════════════════════════════════════════════ 
+||production-eu-central-1-mobile-events.s3.amazonaws.com^$important
+||aihelp.net^$important 
+||cdn-aihelp.net^$important 
+||aplusjapan.aihelp.net^$important 
+||opinator.com^$important 
+||icanhazip.com^$important 
+||checkip.amazonaws.com^$important 
+||httpbin.org^$important 
+||p5rn.com^$important 
+||xxxtik.com^$important 
+||openal.org^$important 
+||uceprotect.net^$important 
+||notifier.rarlab.com^$important 
+||arcpublishing.com^$important 
+||ishir.com^$important 
+||com.cn^$important 
+||com.ru^$important 
+||revolut.com^$important 
+||facebook-hardware.com^$important 
+||measurementlab.net^$important 
+||virtualearth.net^$important 
+||me.gvt1.com^$important  
+||sec.chargepoint.com^$important 
+||shopifysvc.com^$important 
+||detectportal.brave-http-only.com^$important 
+||supportview.com^$important 
+||pouf.org^$important 
+||ipv6-test.com^$important 
+||thegigabit.com^$important 
+||servers.kumi^$important 
+||alwyzon.net^$important 
+||efp.balena.io^$important 
+||balena.io^$important 
+||fossware.space^$important 
+||michaelpuckett.engineer^$important 
+||ryder.id^$important 
+||gorgias.chat^$important 
+||dyndns.com^$important 
+||europa.eu^$important 
+||wsu.edu^$important 
+||ru.debian.org^$important 
+||petiak.ir^$important 
+||hma.rocks^$important 
+||i.mullvad.net^$important 
+||nelreports.net^$important 
+||secureserver.net^$important 
+||59c4d209cf58735d53f2006d386c4052.com^$important 
+||msecnd.net^$important 
+||ziffstatic.com^$important 
+||beacondb.com^$important 
+||vtandroid.com^$important 
+||excean.com^$important 
+||1aeo.com^$important 
+||someonewhocares.org^$important 
+||sdk.privacy-center.org^$important 
+||lepik.io^$important 
+||pdf27y6wrx5s3qbjhwoc4jyhr.com^$important 
+||7yswtpzglispptajg.com^$important 
+||mjz6udczqog4tv.com^$important 
+||kv3d.com^$important 
+||2lsyyuwkvvlwyfqs.com^$important 
+||pjz4h3vgh23k6oijf.com^$important 
+||gaming-sdk.com^$important 
+||manifest.googlevideo.com^$important 
+||matomo.cloud^$important 
+||ops-gx.nvidia.com^$important 
+||localized-config-api.gx.nvidia.com^$important 
+||noch3d.com^$important 
+||datafa.st^$important  
+||segment.digitalocean.com^$important 
+||tracking.digitalocean.com^$important 
+||isappcloud.com^$important 
+||af-sdk.net^$important 
+||fota-cloud-dn.ospserver.net^$important 
+||mup.amp.mcafee.com^$important 
+||nw-dlcdnet.asus.com^$important 
+||officeppe.com^$important 
+||a-config-cache.invideo.io^$important 
+||new-sentry.gitlab.net^$important 
+||azurefd.net^$important 
+||education.github.com^$important 
+||sg.gs^$important
+||trucksim.fm^$important
+||upbeat.pw^$important
+||co.uk^$important
+||bcdnx.com^$important
+||bugs.openwrt.org^$important
+||mcafee.com^$important
+||dialercallinfolookup-pa.googleapis.com^$important
+||astrowarp.net^$important
+||mp.microsoft.com^$important
+||one.one.one.one^$important
+||adtidy.org^$important
+||samsungapps.com^$important
+||brave-http-only.com^$important
+||.samsung.com^$important
+||database-client.com^$important
+||wrixy.app^$important
+||googleusercontent.com^$important
+||.googleusercontent.com^$important
+||googleusercontent.com^$important
+||ads.mozilla.org^$important
+||perfdata.portswigger.net^$important
+||nearbysharing-pa.googleapis.com^$important
+||gos-gsp.io^$important
+||exa.ai^$important
+||mcp.exa.ai^$important
+||speedtest-es.the.hosting^$important
+||stun.nextcloud.com^$important
+||lug.ro^$important
+||pushmessage.samsung.com^$important
+||privacycenter.instagram.com^$important
+||clientservices.googleapis.com^$important
+||amp-endpoint3.com^$important
+||amp-endpoint2.com^$important
+||.i.instagram.com^$important
+||xz.fbcdn.net^$important
+||jmp2.uk^$important
+||accounts.firefox.com^$important
+||webservices.mozgcp.net^$important
+||robinfrontend-pa.googleapis.com^$important
+||dict.brave.com^$important
+||monitor.azure.com^$important
+||cline.bot^$important
+||hicap.ai^$important
+||awswaf.com^$important
+||ae.nflximg.net^$important
+||osano.com^$important
+||hsforms.net^$important
+||parallel.ai^$important
+||quicksilver.scdn.co^$important
+||video-fa.scdn.co^$important
+||adstudio-assets.scdn.co^$important
+||wwwmarketing.scdn.co^$important
+||video-cf.spotifycdn.com^$important
+||spain.info^$important
+||prodregistryv2.org^$important
+||ai-gateway.vercel.sh^$important
+||beget.ru^$important
+||redlauncher-update.live.cdpred.services^$important
+||common.cdn.cdpr.app^$important
+||cdn-cookieyes.com^$important
+||unpkg.com^$important
+||rsc.cdn77.org^$important
+||roocode.com^$important
+||requesty.ai^$important
+||getunbound.ai^$important
+||s-cdn.anthropic.com^$important
+||0.gravatar.com^$important
+||1.gravatar.com^$important
+||2.gravatar.com^$important
+||chrisdown.name^$important
+||0x0.st^$important
+||cloudapp.azure.com^$important
+||googlezip.net^$important
+||variations.brave.com^$important
+||sourcerer.io^$important
+||vercel-dns.com^$important
+||githubstatus.com^$important
+||stats.kde.org^$important
+||iubenda.com^$important
+||b.insforge.dev^$important
+||api.spotify.com^$important
+||datadoghq-browser-agent.com^$important
+||inmobi.com^$important
+||proxy.individual.githubcopilot.com^$important
+||improving.duckduckgo.com^$important
+||intercom.io^$important
+||transcend-cdn.com^$important
+||.distill.pub^$important
+||.cdn.telefonica.com^$important
+||iso-stats.cachyos.org^$important
+||hg.mozilla.org^$important
+||dealer.spotify.com^$important
+||kilo.ai^$important
+||geller-pa.googleapis.com^$important
+||.storage.googleapis.com^$important
+||conncheck.cdn.telefonica.com^$important
+||www.android.com^$important
+||3gpp.org^$important
+||jquery.com^$important
+||dnscrypt.info^$important
+||cloud.google.com^$important
+||aws.amazon.com^$important
+||restrictmoderate.youtube.com^$important
+||chat.google.com^$important
+||promomp.teardowngame.com^$important
+||legacy-auth.live.cdpred.services^$important
+||walmart.com^$important
+||mlkit.google.com^$important
+||foxdebug.com^$important
+||billingclient.android.com^$important
+||accuweather.com^$important
+||samsung.com^$important
+||apps.samsung.com^$important
+||airable.io^$important
+||mediamarkt.es^$important
+||mmst.eu^$important
+||mmsrg.com^$important
+||everywan.com^$important
+||iris.microsoft.com^$important
+||pipopayment.us^$important
+||telemetry.us-ashburn-1.oci.oraclecloud.com^$important
+||google.fastly-edge.com^$important
+||tealiumiq.com^$important
+||tealium.com^$important
+||crunchbase.com^$important
+||ghostery.com^$important
+||salesforce.com^$important
+||huaweicentral.com^$important
+||huawei.com^$important
+||hicloud.com^$important
+||dbankcloud.ru^$important
+||dbankcloud.cn^$important
+||dbankcloud.com^$important
+||altbeacon.org^$important
+||dynatrace.com^$important
+||occ.a.nflxso.net^$important
+||a2z.com^$important
+||telemetry.agrd.io^$important
+||vizio.com^$important
+||cpatrk.com^$important
+||lerist.dev^$important
+||fakeloc.cc^$important
+||alidns.com^$important
+||forcesafesearch.google.com^$important
+||deepsilver.com^$important
+||uks.core.gssv-play-prod.xboxlive.com^$important
+||uks.core.gssv-play-prodxhome.xboxlive.com^$important
+||rupload.facebook.com^$important
+||scontent-fallback.cdninstagram.com^$important
+||ntp.org^$important
+||opendigitalservices.com^$important
+||myactivity.google.com^$important
+||news.google.com^$important
+||data.gov^$important
+||8-lives-cat.io^$important
+||peoplestack-pa.googleapis.com^$important
+||lf16-effectcdn.byteeffecttos-g.com^$important 
+||bytegeo.akadns.net^$important
+||ecdnx.com^$important
+||trusteer.com^$important
+||appsflyersdk.com^$important
+||nist.gov^$important
+||ampproject.org^$important
+||sanesp.mobi^$important
+||fbflipper.com^$important
+||acra.org^$important
+||acra.ch^$important
+||jsdelivr.com^$important
+||geoip.kde.org^$important
+||ping.archlinux.org^$important
+||perfmetrics.netflix.com^$important
+||ftl.nflxvideo.net^$important
+||worldtimeapi.org^$important
+||controlplane.tailscale.com^$important
+||time.cloudflare.com^$important
+||notifications-pa.googleapis.com^$important
+||searchnotifications-pa.googleapis.com^$important
+||scontent-bcn1-1.cdninstagram.com^$important
+||redirector.gvt1.com^$important
+||fivetran.com^$important
+||shared.valve.map.fastly.net^$important
+||promo.teardowngame.com^$important
+||appcloud.mcafee.com^$important
+||es-odc.samsungapps.com^$important
+||sdk.pushmessage.samsung.com^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+||^$important
+!||static.klipy.com^$important
+!||winudf.com^$important
+!||amazonaws.com^$important 
+!||www.google.es^$important 
+!||r.nflxso.net^$important
+!||models.dev^$important
+!||.1.cdn.telefonica.com^$important
+!||comedycentral-dash-movistarplus.emisiondof6.com^$important
+!#
+||discord.gg^
+||googleapis.com^
+||google.es^
+!#
