@@ -542,8 +542,6 @@
 ||bat.bing.com^$important 
 ||clarity.ms^$important 
 ||www.clarity.ms^$important 
-||cloudflareinsights.com^$important 
-||static.cloudflareinsights.com^$important 
 ||buysellads.net^$important 
 ||cdn4.buysellads.net^$important 
 ||servedby-buysellads.com^$important 
@@ -999,10 +997,10 @@
 ||appcloud.mcafee.com^$important
 ||es-odc.samsungapps.com^$important
 ||sdk.pushmessage.samsung.com^$important
-||^$important
-||^$important
-||^$important
-||^$important
+||androidplatform.net^$important
+||reach-pa.googleapis.com^$important
+||performance.radar.cloudflare.com^$important
+||ot.www.cloudflare.com^$important
 ||^$important
 ||^$important
 ||^$important
