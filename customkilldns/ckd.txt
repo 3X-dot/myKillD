@@ -257,11 +257,11 @@
 ||s.youtube.com^$important 
 ||suggestqueries-clients6.youtube.com^$important 
 ||youtube-nocookie.com^$important 
-||youtube-u.l.google.com^$important 
 ||eligibility-panelresearch.googlevideo.com^$important 
 ||panelresearch.googlevideo.com^$important 
 ||manifest.googlevideo.com^$important 
 ||redirector.googlevideo.com^$important 
+||youtube-u.l.google.com^$important 
 # --- Otros streaming --- 
 ||gradio.app^$important 
 ||videoplaza.tv^$important 
@@ -284,9 +284,9 @@
 # 5. SERVICIOS DE GOOGLE (80+ dominios) 
 # ═════════════════════════════════════════════════════════════════ 
 # --- Dominios principales --- 
-||google.com^$important
 ||google.es^$important 
 ||.google.es^$important 
+||google.com^$important
 ||www.google.com^$important 
 ||clients1.google.com^$important 
 ||clients2.google.com^$important 
@@ -303,9 +303,9 @@
 ||firebaseperusertopics-pa.googleapis.com^$important 
 ||firebaseremoteconfigrealtime.googleapis.com^$important 
 # --- Geolocalización y mapas --- 
+||maps.google.com^$important 
 ||geomobileservices-pa.googleapis.com^$important 
 ||maps.googleapis.com^$important 
-||maps.google.com^$important 
 ||mobilemaps.googleapis.com^$important 
 ||mobilemaps-pa-gz.googleapis.com^$important 
 ||userlocation.googleapis.com^$important 
@@ -321,13 +321,13 @@
 ||playatoms-pa.googleapis.com^$important 
 ||gameswhitelisted.googleapis.com^$important 
 # --- Analítica y publicidad --- 
-||adservice.google.com^$important 
+||adservice.google.com^$important
+||fundingchoicesmessages.google.com^$important 
 ||googleadservices.com^$important 
 ||googlesyndication.com^$important 
 ||pagead2.googlesyndication.com^$important 
 ||googletagmanager.com^$important 
 ||www.googletagmanager.com^$important 
-||fundingchoicesmessages.google.com^$important 
 ||metric.gstatic.com^$important 
 ||wh\000xqe-dnsotls-ds.metric.gstatic.com^$important 
 ||.metric.gstatic.com^$important 
@@ -414,7 +414,9 @@
 ||jnn-pa.googleapis.com^$important 
 ||reach-pa.googleapis.com^$important 
 # --- Otros servicios Google --- 
-||myadcenter.google.com^$important 
+||myadcenter.google.com^$important
+||suggestqueries.google.com^$important 
+||waa-pa.clients6.google.com^$important  
 ||gmscompliance-pa.googleapis.com^$important 
 ||mobileconfiguration-pa.googleapis.com^$important  
 ||restrictedapps-pa.googleapis.com^$important 
@@ -439,10 +441,8 @@
 ||appsgenaiserver-pa.googleapis.com^$important 
 ||phosphor-pa.googleapis.com^$important 
 ||finance-pa.googleapis.com^$important 
-||suggestqueries.google.com^$important 
 ||usercontent.goog^$important 
 ||meetings.googleapis.com^$important  
-||waa-pa.clients6.google.com^$important 
 ||optimizationguide-pa.googleapis.com^$important 
 ||flexagon-pa.googleapis.com^$important 
 ||cloudfunctions.net^$important 
@@ -730,6 +730,12 @@
 # --- Otros servicios --- 
 # --- Otros servicios --- 
 !# ═════════════════════════════════════════════════════════════════ 
+||cloud.google.com^$important
+||chat.google.com^$important
+||mlkit.google.com^$important
+||forcesafesearch.google.com^$important
+||myactivity.google.com^$important
+||news.google.com^$important
 ||production-eu-central-1-mobile-events.s3.amazonaws.com^$important
 ||aihelp.net^$important 
 ||cdn-aihelp.net^$important 
@@ -912,14 +918,11 @@
 ||3gpp.org^$important
 ||jquery.com^$important
 ||dnscrypt.info^$important
-||cloud.google.com^$important
 ||aws.amazon.com^$important
 ||restrictmoderate.youtube.com^$important
-||chat.google.com^$important
 ||promomp.teardowngame.com^$important
 ||legacy-auth.live.cdpred.services^$important
 ||walmart.com^$important
-||mlkit.google.com^$important
 ||foxdebug.com^$important
 ||billingclient.android.com^$important
 ||accuweather.com^$important
@@ -955,7 +958,6 @@
 ||lerist.dev^$important
 ||fakeloc.cc^$important
 ||alidns.com^$important
-||forcesafesearch.google.com^$important
 ||deepsilver.com^$important
 ||uks.core.gssv-play-prod.xboxlive.com^$important
 ||uks.core.gssv-play-prodxhome.xboxlive.com^$important
@@ -963,8 +965,7 @@
 ||scontent-fallback.cdninstagram.com^$important
 ||ntp.org^$important
 ||opendigitalservices.com^$important
-||myactivity.google.com^$important
-||news.google.com^$important
+
 ||data.gov^$important
 ||8-lives-cat.io^$important
 ||peoplestack-pa.googleapis.com^$important
@@ -1001,10 +1002,16 @@
 ||reach-pa.googleapis.com^$important
 ||performance.radar.cloudflare.com^$important
 ||ot.www.cloudflare.com^$important
-||^$important
-||^$important
-||^$important
-||^$important
+||cloudflare-ech.co^$important
+||whatsapp.net^$important
+||star-history.com^$important
+||starchart.cc^$important
+||effects.usercontent.youtube.com^$important
+||ping.archlinux.org^$important
+||bx-0007.bx-msedge.net^$important
+||bx-0007.bx-dc-msedge.net^$important
+||applicationinsights.azure.com^$important
+||aus5.mozilla.org^$important
 ||^$important
 ||^$important
 ||^$important
