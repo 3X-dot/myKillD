@@ -205,7 +205,7 @@
 # ═════════════════════════════════════════════════════════════════ 
 # --- Epic Games --- 
 ||epicgames.dev^$important  
-||modules-cdn.eac-prod.on.epicgames.com^$important 
+!||modules-cdn.eac-prod.on.epicgames.com^$important 
 ||eac-prod.on.epicgames.com^$important 
 ||eos-general.s3.amazonaws.com^$important 
 !||api.epicgames.dev^$important
@@ -921,7 +921,6 @@
 ||aws.amazon.com^$important
 ||restrictmoderate.youtube.com^$important
 ||promomp.teardowngame.com^$important
-||legacy-auth.live.cdpred.services^$important
 ||walmart.com^$important
 ||foxdebug.com^$important
 ||billingclient.android.com^$important
@@ -965,7 +964,6 @@
 ||scontent-fallback.cdninstagram.com^$important
 ||ntp.org^$important
 ||opendigitalservices.com^$important
-
 ||data.gov^$important
 ||8-lives-cat.io^$important
 ||peoplestack-pa.googleapis.com^$important
@@ -1012,11 +1010,11 @@
 ||bx-0007.bx-dc-msedge.net^$important
 ||applicationinsights.azure.com^$important
 ||aus5.mozilla.org^$important
-||^$important
-||^$important
-||^$important
-||^$important
-||^$important
+||clearurls.xyz^$important
+||genios.sve.video.telefonicaservices.com^$important
+||nascio.sve.video.telefonicaservices.com^$important
+||marketing.live.cdpred.services^$important
+||ugc-gta5-prod.ros.rockstargames.com^$important
 ||^$important
 ||^$important
 ||^$important
