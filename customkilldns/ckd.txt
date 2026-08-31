@@ -1015,7 +1015,7 @@
 ||nascio.sve.video.telefonicaservices.com^$important
 ||marketing.live.cdpred.services^$important
 ||ugc-gta5-prod.ros.rockstargames.com^$important
-||^$important
+||analytic-signal.gallery.vsassets.io^$important
 ||^$important
 ||^$important
 ||^$important
