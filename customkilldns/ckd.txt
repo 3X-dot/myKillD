@@ -1019,8 +1019,8 @@
 ||iplog.co^$important
 ||mapi.pwsdk.com^$important
 ||featureassets.org^$important
-||^$important
-||^$important
+||anticheatexpert.com^$important
+||maper.info^$important
 ||^$important
 ||^$important
 ||^$important
