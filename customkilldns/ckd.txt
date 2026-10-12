@@ -1015,7 +1015,7 @@
 ||ugc-gta5-prod.ros.rockstargames.com^$important
 ||analytic-signal.gallery.vsassets.io^$important
 ||prd-lender.cdp.internal.unity3d.com^$important
-||^$important
+||family.adguard-dns.com^$important
 ||^$important
 ||^$important
 ||^$important
