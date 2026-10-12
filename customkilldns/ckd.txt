@@ -1017,8 +1017,8 @@
 ||prd-lender.cdp.internal.unity3d.com^$important
 ||family.adguard-dns.com^$important
 ||iplog.co^$important
-||^$important
-||^$important
+||mapi.pwsdk.com^$important
+||featureassets.org^$important
 ||^$important
 ||^$important
 ||^$important
