@@ -1016,7 +1016,7 @@
 ||analytic-signal.gallery.vsassets.io^$important
 ||prd-lender.cdp.internal.unity3d.com^$important
 ||family.adguard-dns.com^$important
-||^$important
+||iplog.co^$important
 ||^$important
 ||^$important
 ||^$important
