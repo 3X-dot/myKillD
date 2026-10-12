@@ -1006,8 +1006,6 @@
 ||starchart.cc^$important
 ||effects.usercontent.youtube.com^$important
 ||ping.archlinux.org^$important
-||bx-0007.bx-msedge.net^$important
-||bx-0007.bx-dc-msedge.net^$important
 ||applicationinsights.azure.com^$important
 ||aus5.mozilla.org^$important
 ||clearurls.xyz^$important
