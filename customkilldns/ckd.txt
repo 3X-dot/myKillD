@@ -1021,7 +1021,7 @@
 ||featureassets.org^$important
 ||anticheatexpert.com^$important
 ||maper.info^$important
-||^$important
+||firefox-portal-detection.com^$important
 ||^$important
 ||^$important
 ||^$important
