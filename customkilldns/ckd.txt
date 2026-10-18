@@ -482,7 +482,7 @@
 ||xboxservices.com^$important 
 ||xboxab.com^$important 
 ||sfx.ms^$important 
-||aka.ms^$important 
+||!aka.ms^$important 
 !||xboxlive.com^$important
 # --- Otros --- 
 ||msecnd.net^$important 
