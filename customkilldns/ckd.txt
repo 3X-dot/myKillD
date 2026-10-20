@@ -698,7 +698,8 @@
 ||detectportal.firefox.com^$important 
 ||push.services.mozilla.com^$important 
 ||services.mozilla.com^$important 
-||assets.mozilla.net^$important 
+||assets.mozilla.net^$important
+||.telemetry.mozilla.org^$important
 # --- Adobe --- 
 ||geo2.adobe.com^$important 
 ||assets.adobedtm.com^$important 
