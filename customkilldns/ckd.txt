@@ -1025,7 +1025,7 @@
 ||firefox-portal-detection.com^$important
 ||data.nexusmods.com^$important
 ||digicert.com.cdn.cloudflare.net^$important
-||^$important
+||nothing.tech^$important
 ||^$important
 ||^$important
 ||^$important
