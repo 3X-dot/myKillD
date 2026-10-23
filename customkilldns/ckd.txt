@@ -1024,7 +1024,7 @@
 ||maper.info^$important
 ||firefox-portal-detection.com^$important
 ||data.nexusmods.com^$important
-||^$important
+||digicert.com.cdn.cloudflare.net^$important
 ||^$important
 ||^$important
 ||^$important
