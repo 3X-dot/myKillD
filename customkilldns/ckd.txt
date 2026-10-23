@@ -1026,9 +1026,9 @@
 ||data.nexusmods.com^$important
 ||digicert.com.cdn.cloudflare.net^$important
 ||nothing.tech^$important
-||^$important
-||^$important
-||^$important
+||account.nothing.tech^$important
+||legacy-users.live.cdpred.services^$important
+||logs-collector.live.cdpred.services^$important
 ||^$important
 ||^$important
 ||^$important
